@@ -39,5 +39,5 @@ trackerlist=`wget -qO- https://trackerslist.com/all.txt |awk NF|sed ":a;N;s/\n/,
 sed -i '$a bt-tracker='${trackerlist} /root/aria2/aria2.conf
 nohup aria2c --conf-path=/root/aria2/aria2.conf  &
 
-redis-server --appendonly yes
+redis-server --appendonly yes --daemonize yes
 /root/cloudreve/cloudreve -c /root/cloudreve/conf.ini
