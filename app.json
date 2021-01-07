@@ -5,4 +5,10 @@
 	"website": "https://yam.ink",
 	"keywords": ["Cloudreve"],
 	"stack": "container"
+	"env": {
+		"DB_Name": {
+			"description": "Database Name",
+			"value": "cloudreve"
+		}
+	},
 }
