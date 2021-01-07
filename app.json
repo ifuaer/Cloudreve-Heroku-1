@@ -1,14 +1,14 @@
 {
-    "name": "Cloudreve-Heroku",
+    "name": "Cloudreve-Heroku-Redis-Mysql",
 	"description": "Deploy Cloudreve on Heroku.",
 	"repository": "https://github.com/FuaerCN/Cloudreve-Heroku",
 	"website": "https://yam.ink",
 	"keywords": ["Cloudreve"],
-	"stack": "container",
 	"env": {
 		"DB_Name": {
 			"description": "Database Name",
 			"value": "Cloudreve"
 		}
 	},
+	"stack": "container"
 }
